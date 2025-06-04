@@ -1,0 +1,21 @@
+const botao = document.querySelector("button");
+const resultado = document.getElementById("resultado");
+
+botao.addEventListener("click", function () {
+  const min = parseInt(document.getElementById("min").value);
+  const max = parseInt(document.getElementById("max").value);
+
+  if (isNaN(min) || isNaN(max)) {
+    resultado.textContent = "Por favor, insira valores válidos.";
+    return;
+  }
+
+  if (min > max) {
+    resultado.textContent = "O mínimo deve ser menor que o máximo.";
+    return;
+  }
+
+  const numeroSorteado = Math.floor(Math.random() * (max - min + 1)) + min;
+
+  resultado.textContent = `Número sorteado: ${numeroSorteado}`;
+});
