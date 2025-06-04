@@ -1,4 +1,4 @@
-##🎲 Sorteador Aleatório
+#🎲 Sorteador Aleatório
 Uma aplicação web simples para realizar sorteios de números aleatórios. Ideal para rifas, sorteios entre amigos ou qualquer situação que exija uma escolha aleatória.
 
 📌 Funcionalidades
@@ -8,7 +8,7 @@ Interface web intuitiva e responsiva.
 
 Desenvolvido com HTML, CSS e JavaScript puro.
 
-##🚀 Como Usar
+#🚀 Como Usar
 Clone o repositório:
 
 bash
